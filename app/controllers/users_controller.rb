@@ -15,5 +15,9 @@ class UsersController < ApplicationController
     @new = 'This is the New action method'
   end
 
+  def create
+    @create = 'This is the Create Action method'
+  end
+
 
 end
